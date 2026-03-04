@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Professional Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        :root {
+            --primary: #1f2937;
+            --accent: #2563eb;
+            --light: #f9fafb;
+            --gray: #6b7280;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--light);
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        header {
+            background: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--gray);
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1rem;
+        }
+
+        section h2 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .item-title {
+            font-weight: 600;
+        }
+
+        .item-subtitle {
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Your Professional Title | Your Specialty</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#licenses">Licenses & Certifications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About</h2>
+    <div class="card">
+        <p>
+            Brief professional summary goes here. Describe your background,
+            key strengths, industries you've worked in, and what you're passionate about.
+        </p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="card">
+        <div class="item-title">Job Title — Company Name</div>
+        <div class="item-subtitle">Start Date – End Date | Location</div>
+        <ul>
+            <li>Key achievement or responsibility.</li>
+            <li>Major project or impact statement.</li>
+            <li>Quantifiable accomplishment (e.g., increased efficiency by 20%).</li>
+        </ul>
+    </div>
+
+</section>
+
+<section id="licenses">
+    <h2>Licenses & Certifications</h2>
+
+    <div class="card">
+        <div class="item-title">Certification Name</div>
+        <div class="item-subtitle">Issuing Organization | Year</div>
+    </div>
+
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <div class="item-title">Degree — Institution Name</div>
+        <div class="item-subtitle">Graduation Year | Location</div>
+        <p>Relevant coursework, honors, or distinctions.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="card">
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: https://linkedin.com/in/yourprofile</p>
+        <p>GitHub: https://github.com/yourusername</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Your Name. All rights reserved.
+</footer>
+
+</body>
+</html>
